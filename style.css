@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bi-suit-heart,
+.bi-person,
+.bi-bag {
+  color: #198754;
+  border-color: #198754;
+}
+
+.btn-success {
+  background-color: #0aad0a;
+}
+
+.input-group {
+  width: 60%;
+}
+
+.checked {
+  color: orange;
+}
+
+a {
+  color: black;
+}
+
+.card-width {
+  width: 204px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .col-md-2 {
+    display: none;
+  }
+
+  .row > * {
+    width: 50%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .input-group {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  .remove {
+    display: none;
+  }
+  .card-width {
+    width: 150px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .col-md-2 {
+    display: none;
+  }
+  .card-width {
+    width: 150px;
+  }
+  .row > * {
+    flex-shrink: 0;
+    width: 30%;
+    max-width: 100%;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .col-md-2 {
+    display: none;
+  }
+  .col-md-auto {
+    margin-bottom: 10px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  ...;
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  ...;
+}
